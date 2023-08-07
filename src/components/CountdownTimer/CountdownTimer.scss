@@ -1,0 +1,23 @@
+.countdown-timer {
+    display: flex;
+    font-size: 36px;
+    color: white;
+    gap: 6rem;
+}
+
+.countdown-unit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+
+    .value {
+        font-size: 48px;
+        font-weight: bold;
+    }
+
+    .label {
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+}

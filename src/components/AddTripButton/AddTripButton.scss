@@ -1,0 +1,19 @@
+.add-trip {
+    min-width: 248px;
+    height: 224px;
+    border: 1px solid lightgrey;
+    background-color: lightgrey;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    p {
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin: 5px;
+    }
+
+}
+

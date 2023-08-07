@@ -1,0 +1,22 @@
+.today-weather {
+    color: white;
+    padding: 20px;
+    font-size: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    .weather-info {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .weather-icon {
+        font-size: 40px;
+    }
+    .city-name{
+        font-size: 24px;
+    }
+}

@@ -1,0 +1,110 @@
+.left-side {
+    width: 66%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 3rem;
+
+    .title {
+        font-size: 2rem;
+        line-height: 3.2rem;
+        margin: 0 0 4rem 0;
+    }
+
+    .search-container {
+        position: relative;
+        width: 100%;
+    }
+
+    .search-input {
+        max-width: 300px;
+        min-height: 60px;
+        border: none;
+        background-color: #f0f0f0;
+        padding-left: 50px;
+        border-radius: 5px;
+        font-size: 16px;
+        color: #000000;
+        line-height: 30px;
+        height: 30px;
+        width: 100%;
+        box-sizing: border-box;
+
+        &::placeholder {
+            color: #000000;
+        }
+
+        margin: 0 0 50px 0
+    }
+
+    .search-input:hover {
+        background-color: #e0e0e0;
+    }
+
+    .search-input:focus {
+        outline: none;
+    }
+
+    .search-icon {
+        position: absolute;
+        left: 20px;
+        top: 27%;
+        transform: translateY(-50%);
+        width: 20px;
+        height: 20px;
+        color: #000000;
+    }
+
+    .week {
+        margin: 30px 0;
+        font-size: 1.5rem;
+    }
+
+    .scroll-container {
+        width: 100%;
+        max-width: 1140px;
+        display: flex;
+        align-items: center;
+        overflow-x: hidden;
+        margin: 10px 0;
+
+        .cities {
+            width: 100%;
+            display: flex;
+            gap: 2rem;
+            overflow-x: auto;
+        }
+
+        .weather {
+            width: 100%;
+            display: flex;
+            gap: 2rem;
+            overflow-x: auto;
+        }
+
+        .scroll-button {
+            min-width: 40px;
+            height: 40px;
+            background-color: #ccc;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        .left {
+            margin: 0 12px 0 0;
+        }
+
+        .right {
+            margin: 0 0 0 12px;
+        }
+    }
+
+    ::-webkit-scrollbar {
+        display: none;
+
+    }
+
+}
